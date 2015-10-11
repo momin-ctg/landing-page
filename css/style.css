@@ -1,0 +1,93 @@
+*{margin:0;padding:0}
+
+body{background:#fff;font-family:Arial;font-size:14px;line-height:20px;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+
+a{color:#fff;text-decoration:none}
+a:hover{text-decoration:none}
+input[type=text],input type[type=password],textarea{border:1px solid #ddd;padding:5px}
+
+
+
+img{max-width:100%;height;auto;border: none;}
+.alignleft{float:left;margin-right:10px}
+.aligncenter{display:block;margin:10px auto}
+.alignright{float:right;margin-left:10px}
+
+.stracture{width:940px;margin:0 auto;display:block}
+.floatleft{float:left}
+.floatright{float:right}
+.fix{overflow:hidden}
+
+
+.main_content{}
+.main_content_area{background: none repeat scroll 0 0 #31A3C1;
+border-radius: 35px 35px 35px 35px;
+box-shadow: 2px 2px 2px #DDDDDD;
+-moz-box-shadow: 2px 2px 2px #DDDDDD;
+-webkit-box-shadow: 2px 2px 2px #DDDDDD;
+color: #FFFFFF;
+margin-bottom: 20px;
+margin-top: 20px;
+padding: 20px;
+position: relative;}
+.add{width: 630px;}
+.add h1{font-size: 66px;
+line-height: 70px;
+margin-left: 20px;}
+.add h2{font-size: 22px;
+letter-spacing: 2px;
+line-height: 35px;
+margin-left: 30px;}
+.add p{font-size: 18px;
+line-height: 22px;
+margin-left: 230px;
+text-align: justify;
+width: 300px;}
+.add h3{font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+margin-left: 300px;
+margin-top: 75px;}
+.add_image{left: 155px;
+position: absolute;
+top: 172px;
+width: 300px;}
+.sform{background: none repeat scroll 0 0 #ffffff;
+border-radius: 45px 45px 45px 45px;
+padding-right: 15px;
+color: #000}
+.sform h2{padding: 10px;
+text-align: center;
+font-weight: bold;}
+.sform h4{}
+.promo{}
+#button_color2{background: none repeat scroll 0 0 #FF3399;}
+#button_color3{background: none repeat scroll 0 0 #FF66CC;}
+.promo_area{height: 100px;
+margin-bottom: 30px;
+margin-top: 10px;}
+.single_button{background: none repeat scroll 0 0 #D60093;
+border-radius: 10px 10px 10px 10px;
+color: #FFFFFF;
+margin-left: 20px;
+padding: 25px;
+text-align: center;
+width: 240px;
+-webkit-box-shadow:  2px 2px 1px 2px #B4B4B4;
+box-shadow:  2px 2px 1px 2px #B4B4B4;}
+.single_text{}
+.single_text_area{}
+.single_text_area p{font-size: 20px;
+line-height: 33px;
+margin-left: 30px;}
+.footer_text1{color: #9D9FA2;
+margin-top: 40px;
+text-align: justify;}
+.footer_text1 p>span>a{color: #9D9FA2;text-decoration: underline;}
+.footer_text1 p>span>a:hover{color: #31A3C1;}
+.footer_text2{border-bottom: 1px solid #ddd;
+color: #9D9FA2;
+margin-bottom: 73px;
+margin-top: 40px;
+text-align: justify;}

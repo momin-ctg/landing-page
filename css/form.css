@@ -1,0 +1,191 @@
+.login_bar{}
+.login_bar_area{background: none repeat scroll 0 0 #589EE9;
+border-radius: 10px 10px 10px 10px;
+color: #1E1D14;
+font-size: 30px;
+font-weight: bold;
+margin: 20px auto;
+padding: 20px;
+text-align: center;}
+.login_bar_area p{}
+.main_Login_form{}
+.main_login_form_area{background: none repeat scroll 0 0 #589ee9;
+border-radius: 10px 10px 10px 10px;
+height: 350px;
+width: 425px;}
+
+
+.form{
+    /* Size and position */
+margin: 10px auto 5px;
+padding: 10px;
+position: relative;
+width: 250px;
+ 
+    /* Font styles */
+    font-family:Arial, sans-serif;
+    color:#000;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+
+/* checkbox Style*/
+  label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+input[type=checkbox] {
+    display: none;
+}
+label:before {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+.checkbox label {
+    margin-bottom: 10px;}
+
+.checkbox label:before {  
+        border-radius: 3px;  
+    }  
+
+ input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
+}
+.idpass{background: none repeat scroll 0 0 #576189;
+border-radius: 5px 5px 5px 5px;
+box-shadow: 1px 1px #9EA9C5;
+color: #FFFFFF;
+font-size: 16px;
+padding: 10px;}
+
+.form h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+
+.form input[type=text],
+.form input[type=password] {
+    /* Size and position */
+    width: 100%;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+ 
+    /* Styles */
+    border: 1px solid #4e3043; /* Fallback */
+    border: 1px solid rgba(78,48,67, 0.8);
+    background: rgba(0,0,0,0.15);
+    border-radius: 2px;
+    box-shadow:
+        0 1px 0 rgba(255,255,255,0.2),
+        inset 0 1px 1px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+ 
+    /* Font styles */
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.form input::-webkit-input-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+ 
+.form input:-moz-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+ 
+.form input:-ms-input-placeholder {
+    color: rgba(37,21,26,0.5);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.15);
+}
+
+
+.form input[type=text]:hover,
+.form input[type=password]:hover {
+    border-color: #333;
+}
+ 
+.form input[type=text]:focus,
+.form input[type=password]:focus,
+.form input[type=submit]:focus {
+    box-shadow:
+        0 1px 0 rgba(255,255,255,0.2),
+        inset 0 1px 1px rgba(0,0,0,0.1),
+        0 0 0 3px rgba(255,255,255,0.15);
+    outline: none;
+}
+ 
+/* Fallback */
+.no-boxshadow .form input[type=text]:focus,
+.no-boxshadow .form input[type=password]:focus {
+    outline: 1px solid white;
+}
+
+.form input[type=submit] {
+    /* Size and position */
+    width: 105%;
+    padding: 8px 5px;
+     
+    /* Styles */
+    background: linear-gradient(rgba(41,182,81,0.9), rgba(41,185,85,0.9));   
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    box-shadow:
+        inset 0 1px rgba(255,255,255,0.4),
+        0 2px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+ 
+    /* Font styles */
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Arial, sans-serif;
+}
+ 
+.forminput[type=submit]:hover {
+    box-shadow:
+        inset 0 1px rgba(255,255,255,0.2),
+        inset 0 20px 30px rgba(99,64,86,0.5);
+}
+ 
+/* Fallback */
+.no-boxshadow .form input[type=submit]:hover {
+    background: #594642;
+}
+
+.copyright_text{}
+.copyright_text_area{background: none repeat scroll 0 0 #589EE9;
+border-radius: 10px 10px 10px 10px;
+font-size: 20px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;}
+.copyright_text_area p{}
